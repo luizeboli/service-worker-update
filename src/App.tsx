@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         {!!showWarning && 
           <button onClick={() => {
-            window.location.reload( )
+            window.location.reload()
           }}>
             Clique aqui para atualizar
           </button>
